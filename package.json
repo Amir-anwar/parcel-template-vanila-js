@@ -1,0 +1,24 @@
+{
+  "name": "parcel-template-vanilajs",
+  "version": "1.0.0",
+  "description": "boilerplate for workin with parcel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amir-anwar/parcel-template-vanila-js.git"
+  },
+  "keywords": [
+    "js",
+    "boilaerplate",
+    "parcel"
+  ],
+  "author": "Amir Anwar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Amir-anwar/parcel-template-vanila-js/issues"
+  },
+  "homepage": "https://github.com/Amir-anwar/parcel-template-vanila-js#readme"
+}
