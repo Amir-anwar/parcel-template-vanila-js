@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Amir-anwar/parcel-template-vanila-js/issues"
   },
-  "homepage": "https://github.com/Amir-anwar/parcel-template-vanila-js#readme"
+  "homepage": "https://github.com/Amir-anwar/parcel-template-vanila-js#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
 }
