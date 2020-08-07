@@ -4,7 +4,9 @@
   "description": "boilerplate for workin with parcel",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html",
+    "clean": "rm -r dist/"
   },
   "repository": {
     "type": "git",
