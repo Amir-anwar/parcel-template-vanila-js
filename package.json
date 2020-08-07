@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/Amir-anwar/parcel-template-vanila-js#readme",
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.10"
   }
 }
