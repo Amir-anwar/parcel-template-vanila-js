@@ -27,8 +27,12 @@
     "@babel/core": "^7.11.1",
     "@babel/preset-env": "^7.11.0",
     "autoprefixer": "^9.8.6",
+    "eslint": "^7.6.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
     "parcel-bundler": "^1.12.4",
     "postcss-modules": "^3.2.0",
+    "prettier": "^2.0.5",
     "sass": "^1.26.10"
   },
   "browserslist": [
