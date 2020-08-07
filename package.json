@@ -28,5 +28,11 @@
     "@babel/preset-env": "^7.11.0",
     "parcel-bundler": "^1.12.4",
     "sass": "^1.26.10"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
