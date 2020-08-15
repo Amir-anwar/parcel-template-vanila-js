@@ -6,7 +6,8 @@
   "scripts": {
     "start": "parcel src/index.html --open",
     "build": "parcel build src/index.html",
-    "clean": "rm -r dist/"
+    "clean": "rm -r dist/",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -46,5 +47,7 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "dependencies": {}
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
 }
