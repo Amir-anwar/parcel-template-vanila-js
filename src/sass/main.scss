@@ -1,20 +1,50 @@
-html {
-  box-sizing: border-box;
-}
+@charset "UTF-8";
 
-* {
-  &,
-  &::before,
-  &::after {
-    box-sizing: inherit;
-  }
-}
+// 1. settings
+@import 
+  '1-settings/global';
 
-body {
-  text-align: center;
-}
+// 2. desing tokens
+@import 
+  './2-design-tokens/colors',
+  './2-design-tokens/fonts',
+  './2-design-tokens/media-queries',
+  './2-design-tokens/spacing',
+  './2-design-tokens/typography';
 
-img {
-  display: block;
-  width: 700px;
-}
+// 3. tools
+@import 
+  './3-tools/center';
+
+// 4. generic
+@import 
+  './4-generic/normalize',
+  './4-generic/box-sizing',
+  './4-generic/font-face',
+  './4-generic/print',
+  './4-generic/text-align';
+
+// 5. Elements
+@import 
+  './5-elements/forms',
+  './5-elements/headings',
+  './5-elements/images',
+  './5-elements/links',
+  './5-elements/lists';
+
+// 6. Skeleton
+@import 
+  './6-skeleton/grid',
+  './6-skeleton/layouts';
+
+// 7. components 
+@import 
+  './7-components/hero';
+
+// 8. Utilities
+@import 
+  './8-utilities/states';
+
+// Shame on U
+@import 
+  './shame';
